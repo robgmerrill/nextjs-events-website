@@ -4,7 +4,6 @@ import EventItem from "@/components/EventItem";
 import Link from "next/link";
 
 export default function EventsPage({ events }) {
-  console.log(events);
   return (
     <Layout title="DJ">
       <h1>Events</h1>

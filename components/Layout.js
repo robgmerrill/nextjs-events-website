@@ -8,7 +8,6 @@ import Showcase from "./Showcase";
 
 export default function Layout({ title, keywords, description, children }) {
   const router = useRouter();
-  console.log(router);
   return (
     <div>
       <Head>
